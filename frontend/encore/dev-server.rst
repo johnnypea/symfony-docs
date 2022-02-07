@@ -83,7 +83,7 @@ server SSL certificate:
 
     +     .configureDevServerOptions(options => {
     +         options.https = {
-    +             pfx: path.join(process.env.HOME, '.symfony/certs/default.p12'),
+    +             pfx: path.join(process.env.HOME, '.symfony5/certs/default.p12'),
     +         }
     +     })
 
